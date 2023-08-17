@@ -1,19 +1,19 @@
 <h1 align="center"> 
-	Request Bucker Files
+	Request Bucket Files
 </h1> 
 
 ## 📃 Descrição
-Este é um exemplo simples para fazer o envio e download de arquivos de um bucker da AWS. Neste caso é utilizado a biblioteca boto3 e para utilizar estes arquivos, é necessário substituir as credenciais de acesso, o nome e região do bucker a ser utilizado. Além disso, tem-se um arquivo parar criar arquivos txt com a data e horário atual para fins de testes.
+Este é um exemplo simples para fazer o envio e download de arquivos de um bucket da AWS. Neste caso é utilizado a biblioteca boto3 e para utilizar estes arquivos, é necessário substituir as credenciais de acesso, o nome e região do bucket a ser utilizado. Além disso, tem-se um arquivo parar criar arquivos txt com a data e horário atual para fins de testes.
 
 ## 💻 Instruções para rodar o código
 Siga as instruções abaixo:
 
   ```bash
   # Clone o repositório para seu ambiente local
-  $ git clone https://github.com/gabrieloliveirapimentel/request-files-bucker.git
+  $ git clone https://github.com/gabrieloliveirapimentel/request-files-bucket.git
   
   # Acesse o diretório do projeto
-  $ cd request-files-bucker
+  $ cd request-files-bucket
 
   # Faça o download do boto3
   $ pip install boto3
@@ -28,6 +28,8 @@ Para mais informações, acesse a biblioteca oficial do boto3 e do SDK da AWS at
   <li><a href="https://docs.aws.amazon.com/pt_br/s3/?icmpid=docs_homepage_featuredsvcs">Amazon S3</a></li>
   <li><a href="https://aws.amazon.com/pt/developer/tools/">Ferramentas para AWS</a></li>
 </ul>
+
+Lembre-se que para utilizar estes códigos é necessário ter uma conta na AWS, assim como o servidor totalmente configurado.
 
 ## 👨🏻‍💻 Autor
 <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/63811493?v=4" width="100px;" alt=""/>
